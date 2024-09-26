@@ -178,7 +178,7 @@ class CodeGenProcess {
           path: this.config.output,
           fileName: `${file.fileName}${file.fileExtension}`,
           content: file.fileContent,
-          withPrefix: true,
+          withPrefix: false,
         });
 
         consola.success(
